@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap');
+body, html{
+  
+    background-color: #EDEDED !important;
+    font-family: 'Anonymous Pro', monospace;
+    background-image: linear-gradient(#2D3142,#2D3142, #EF8354);
+}
+
+
+.btn-floating:hover {
+
+  background-color: #EF8354;
+  color: #2D3142;
+  cursor: pointer;
+}
+
+
+.btn-floating {
+	
+  color:#2D3142;
+  background-color: white;
+}
+
+/* navbar */
+/* code by webdevtrick ( https://webdevtrick.com ) */
+nav{ 
+	display: contents;
+}
+#content li{
+	margin: 10px;
+	height: 60px;
+	width: 40px;
+}
+
+  #navigation-bar a {
+	color: #ddd8d8;
+	font-size: 15px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	position: relative;
+	transition: all 0.3s ease;
+	width: 80px;
+  }
+  #navigation-bar a:hover {
+	color: #EF8354;
+  }
+  #navigation-bar a::before {
+	content: "";
+	transition: all 0.4s ease-in-out;
+	position: absolute;
+	right: 50%;
+	left: 50%;
+	bottom: 0;
+	height: 2px;
+	background-color: #EF8354;
+  }
+  #navigation-bar a:hover::before {
+	right: 0;
+	left: 0;
+  }
+  
+
+.intro
+{
+	
+	text-align: center;
+
+}
+
+.intro h1
+{
+	font-weight: 900;
+	font-family: 'Rubik Mono One', sans-serif;
+
+	text-transform: uppercase;
+	color: #EF8354;
+	
+
+}
+
+.intro h5
+{
+	text-transform: uppercase;
+	background-color: #EF8354;
+	padding: 10px;
+	color: #333333;
+	display: inline-block;
+	font-size: 1.2rem;
+}
+
+.landing{
+height: 600px;
+
+}
+.showcase{
+	 margin-top: 15em;
+
+	
+    
+}
+
+
+/* typewriter */
+
+/* Global */
+body{
+	padding: 1em;
+	color: rgba(255,255,255,.75);
+	font-family: 'Anonymous Pro', monospace;  
+	background-color: rgb(25,25,25);  
+	} 
+	
+	
+.about .col
+{
+	margin-bottom: 24px;
+}
+
+.about h5
+{
+	
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.about h6
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.about hr
+{
+	width: 40px;
+	margin-bottom: 45px;
+}
+
+.about .card
+{
+	text-align: center;
+}
+
+.about .card img
+{
+	margin-bottom: 15px;
+}
+
+.portfolio .col
+{
+	margin-bottom: 24px;
+}
+
+
+.portfolio hr
+{
+	width: 40px;
+	margin-bottom: 45px;
+}
+
+#works img{
+	filter: grayscale(1);
+
+
+}
+
+#works img:hover {
+	filter: invert(1);
+	
+}
+.back {
+ display: contents;
+}
+
+  /* ---- particles.js container ---- */
+  
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
