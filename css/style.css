@@ -6,7 +6,6 @@ body, html{
     background-image: linear-gradient(#2D3142,#2D3142, #EF8354);
 }
 
-
 .btn-floating:hover {
 
   background-color: #EF8354;
@@ -26,13 +25,15 @@ body, html{
 
 /* navbar */
 /* code by webdevtrick ( https://webdevtrick.com ) */
-nav{ 
-	display: contents;
-	
+
+.navbar-fixed {
+	position: absolute;z-index:999999999;
+	/* display: contents; */
+
 }
-#content li{
+.navbar-fixed li{
 	margin: 10px;
-	height: 40px;
+	height: 20px;
 	width: 40px;
 }
 
@@ -50,7 +51,7 @@ nav{
   }
   #navigation-bar a:hover {
 	color: #EF8354;
-	margin: 30px;
+	margin: 20px;
 	
   }
   #navigation-bar a::before {
@@ -80,7 +81,7 @@ nav{
 .intro h1
 {
 	font-weight: 900;
-
+	font-family: 'Sniglet', cursive;
 	text-transform: uppercase;
 	color: #EF8354;
 	

@@ -52,9 +52,10 @@ left: 0px;
 
 
   <div class="row">
-              <nav class="container">
-        <div id="content">
-              <div id="navigation-bar" class="nav-wrapper container col s12 "> 
+              
+        <div class="col s12 container">
+              <div id="navigation-bar" class="navbar-fixed container col s12 "> 
+                  <nav class="transparent z-depth-0">
                 <ul>                              
                     <li ><a href="#home" style="margin-left: 0px;
                       "></i><span>Home</span></a></li>
@@ -62,9 +63,9 @@ left: 0px;
                     <li><a href="#works" ></i><span>Works</span></a></li>
                     <li><a href="#contact" ></i><span>Contact</span></a></li>
                   </ul> 
+                </nav>
               </div>
         </div>
-      </nav>
     </div>
   <!-- SECTION 2: LANDING SCREEN -->
   <section class="col s12  scrollspy container landing" id="home">
@@ -223,7 +224,7 @@ left: 0px;
           <i class="fab fa-facebook"></i> Share
         </a>
       
-        <a  href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsTMDXGmbpKfgdnRzprRmRpttcwMGmqcprdvVRBhRhVhfZZfZJjkknsMRQTNKHnnvlcCnCVG"  class="btn btn-raised btn-google-plus " target="_blank">
+        <a  href="https://mail.google.com"  class="btn btn-raised btn-google-plus " target="_blank">
           <i class="fab fa-google"></i> Share
         </a>
         <a  href="https://github.com/saireniva" target="_blank" class="btn btn-raised btn-github">
@@ -255,18 +256,16 @@ left: 0px;
 <script src='https://cdn.rawgit.com/Dogfalo/materialize/master/dist/js/materialize.min.js'></script>
 
 <script src="js/typeWriter.js"></script>
-<script src="js/index.js"></script>
+<!-- <script src="js/index.js"></script> -->
     
 <script>
   $(document).ready(function(){
-    $('.scrollspy').scrollSpy();
+    $('.scrollspy').scrollSpy({
+    scrollOffset: 0
+    });
+    $('.tooltipped').tooltip();
+    
   });
   </script>
-
-<script>
-$(document).ready(function(){
-  $('.tooltipped').tooltip();
-});
-</script>
 </body>
 </html>
