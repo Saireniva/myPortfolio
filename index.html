@@ -17,12 +17,18 @@
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
       <link rel="stylesheet" href="css/style.css">
-      
-
-  
-  <title>CAS Reniva</title>
+      <title>CAS Reniva</title>
 </head>
+
+
+
 <body class="intro" >
+    
+<!-- particles.js container --> 
+<div id="particles-js" style="
+right: 0px;
+left: 0px;
+"></div>
 <!-- Float Button -->
 <div class="fixed-action-btn">
   <a class="btn-floating " style="
@@ -31,45 +37,27 @@
     <i class="fa fa-globe"></i>
   </a>
   <ul>
-    <li><a class="btn-floating "style="
-      right: 10px;" ><i class="fab fa-facebook"></i></a></li>
-    <li><a class="btn-floating "style="
-      right: 10px;"><i class="fab fa-twitter"></i></a></li>
-    <li><a class="btn-floating "style="
-      right: 10px;"><i class="fab fa-github"></i></a></li>
-    <li><a class="btn-floating "style="
-      right: 10px;"><i class="fab fa-google"></i></a></li>
+    <li><a href="https://web.facebook.com/cy.reniva" target="_blank" class="tooltipped btn-floating  "style="
+      right: 10px;" data-position="left" data-tooltip="Message me on Facebook"><i class="fab fa-facebook"></i></a></li>
+    <li><a href="https://twitter.com/smashiro689" class="btn-floating tooltipped"style="
+      right: 10px;"data-position="left" data-tooltip="Follow me on Twitter"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="https://github.com/saireniva" target="_blank" class="btn-floating tooltipped"style="
+      right: 10px;"data-position="left" data-tooltip="Follow me on Github"><i class="fab fa-github"></i></a></li>
+    <li><a class="btn-floating tooltipped"style="
+      right: 10px;"data-position="left" data-tooltip="Contact me on Gmail"><i class="fab fa-google"></i></a></li>
   </ul>
 </div>
 
   <!-- SECTION 1: NAVBAR -->
-  
-  <div class="row " >
-      <div id="menu-nav" class="s6 m2 right hide-on-large-only"> 
-          <a href="#" class="white-text button-collapse" data-activates="mobile-nav">
-              <i class="material-icons tiny col s12 m6">menu</i>
-              </a>    
-                </div>
-                  <!-- DROPDOWN TRIGGER -->
-                <ul class="side-nav" id="mobile-nav"> 
-                    <li ><a class="nav-link py-2 px-0 px-lg-2 rounded js-scroll-trigger" href="#home">Home</a></li>
-                    <li><a class="nav-link py-2 px-0 px-lg-2 rounded js-scroll-trigger" href="#about">About</a></li>
-                    <li><a class="nav-link py-2 px-0 px-lg-2 rounded js-scroll-trigger" href="#works">Works</a></li>
-                    <li><a class="nav-link py-2 px-0 px-lg-2 rounded js-scroll-trigger"  href="#contact">Contact</a></li>
-                  
-                  </ul>   
-                
-                  <div class="col s12 hide-on-med-and-down" style="
-                  width: 31px;
-                  height: 10px;
-                  margin-top: 5em;
-              ">
-              <nav>
+
+
+  <div class="row">
+              <nav class="container">
         <div id="content">
-              <div id="navigation-bar" class="nav-wrapper container col s12"> 
-                <ul>  
-                  <li style="height: 10px"></li>               
-                    <li ><a href="#home" ></i><span>Home</span></a></li>
+              <div id="navigation-bar" class="nav-wrapper container col s12 "> 
+                <ul>                              
+                    <li ><a href="#home" style="margin-left: 0px;
+                      "></i><span>Home</span></a></li>
                     <li><a href="#about" ></i><span>About</span></a></li>  
                     <li><a href="#works" ></i><span>Works</span></a></li>
                     <li><a href="#contact" ></i><span>Contact</span></a></li>
@@ -78,160 +66,207 @@
         </div>
       </nav>
     </div>
-  
-
-
-
   <!-- SECTION 2: LANDING SCREEN -->
   <section class="col s12  scrollspy container landing" id="home">
-      <div class="showcase">       
-          <h1 id="demo" class="line-1 anim-typewriter" >  cyrell anne reniva :) </h1>
+      <div class="showcase " >       
+          <h1 id="demo" class="line-1 anim-typewriter" >  cyrell anne reniva </h1>
               <h5 class="white-text text-lighten-5">web designer/developer</h5>
           </div>
       </section>
-
-
+      
+      <hr style="margin-bottom: 100px; width: 100%">
+  
   <!-- SECTION 3: ABOUT ME -->
-<section id="about" class="col s12 scrollspy" style="margin-top: 100px;">
-  <hr style="margin-bottom: 100px;">
-        <div  class="container about"  >
+<section id="about" class="container col s12 scrollspy" >
+
+ 
+        <div  class=" about"  >
           <h5>about me</h5>
           <h6>let me introduce my self</h6>
-          <hr>
-    <div class="row"  style="margin-bottom: 100px;">
+          <hr >
+    <div class="row "  style="margin-bottom: 100px;">
                   <div class="col s12 m6 l6">
                     <h6>Profile</h6>
-                      <div class="card grey darken-2">
+                      <div class="card grey darken-2 ">
                         <br><br>
-                          <div class="col-s2 m2">
-                            <img src="img/avataaars.png" class="responsive rounded-circle img-fluid" width="200" height="200">
+                          <div class="sai col-s12 m2">
+                            <img src="img/me.jpg" class="responsive-img container card-content responsive rounded-circle img-fluid tooltipped"data-position="right" data-tooltip="Welcome to my Homepage :)" width="300" height="300">
                             </div>
                             <h6 style=" margin-bottom: 0px;">Cyrell Anne Reniva</h6>
-                            <span>(Rodriguez, Rizal, Philippines)</span>
+                            <p class="responsive">(Rodriguez, Rizal, Philippines)</p>
                                 <br><br>
                                     <div class="card-action">
-                                  <a href="#!"><i class="fab fa-facebook"></i></a>
-                                  <a href='#!'><i class="fab fa-github"></i></a>
-                            <a href='#!'><i class="fab fa-gmail"></i></a>
+                                  <a href="https://web.facebook.com/cy.reniva" target="_blank" class="tooltipped" data-position="left" data-tooltip="Message me on Facebook"><i class="white-text fab fa-facebook" ></i></a>
+                                  <a href="https://github.com/saireniva" target="_blank" class="tooltipped" data-position="bottom" data-tooltip="follow me on Github"><i class="white-text fab fa-github"></i></a>
+                                  <a href="#!"class="tooltipped" data-position="right" data-tooltip="Contact me on Gmail"><i class="white-text fab fa-google"></i></a>
                           </div>
                         </div>
                       </div>
-                  <div class="col s12 m6 l6">
-                    <h6>Story</h6>
+                  <div class="col s12 m6 l6 ">
+                    <h5 id="me" style="margin-top: 3px; padding-top: 5px" >10 Facts About Me</h5>
                     <br><br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="left-align container" style=" margin-top: 20px;">
+                          Hi, <br>
+                          I was born in 1997. <br>
+                          I’m a Leo but I know it doesn’t mean anything. <br>
+                          I’m a computer engineering graduate. <br>
+                          I’m a total homebody. <br>
+                          I have 4 brothers. <br>
+                          I listen more than I talk <br>
+                          I love coffee. <br>
+                          I love the smell of old books. <br>
+                          I love the sound of the rain. <br>
+                          I'm a fan of DIYs. <br>
+                         
+                    </div>
+                  
+                <div class="container">
+                 
+                    <h5 id="me">What I Can Do</h5> <br>
+        <div class="left"><i class="orange-text fa fa-plus"></i>  Web Design</div> 
+        <br>
+        <div class="left"> <i class="orange-text fa fa-plus"></i> HTML5/CSS3</div> 
+        <br>
+        <div class="left"> <i class="orange-text fa fa-plus"></i> Vanilla JavaScript</div> 
+        <br>
+        <div class="left"><i class="orange-text fa fa-plus"></i>  Materialize/Bootstrap</div> 
+        <br>
+        <div class="left"><i class="orange-text fa fa-plus"></i>  Wordpress</div> 
+        <br>
+        <div class="left"><i class="orange-text fa fa-plus"></i>  PHP</div> 
+        <br>
+        <div class="left"><i class="orange-text fa fa-plus"></i>  Video/Photo Editing</div> 
+        
+        </div>
       </div>
     </div>
   </div>
 </section>
   <!-- SECTION 4: PROJECTS/WORKS -->
 
-  <section class="col s12" >
-    <div id="works"class="container portfolio">
+  <section class="col s12 center container" >
+    <div id="works"class=" portfolio scrollspy">
       <h5>portfolio</h5>
     <br>
       <h6>MY LATEST PROJECTS</h6>
     <br>
       <hr style="margin-bottom: 100px;">
       <div class="row" >    
+        
+          <!-- CARD WITH TITLE -->
+          <div class="card white black-text col s12 ">
+            <div class="card-content ">
+              <span class="card-title ">Project 1 : Github User Finder</span>
+              <div class="col-s2 m2">
+                  <img src="img/git.png" class="responsive-img container img-raised rounded img-fluid">
+                </div>
+              <p>In this project we can search GITHUB users by simply typing their GITHUB username and as we type something in the search bar, we will get user's profile information along with links to latest 5 repositories </p>
+            </div>
+            <!-- ADD LINKS -->
+            <div class="card-action transparent">
+            
+              <a href="https://github-user-finder-by-sai.netlify.com/" target="_blank">Visit Website</a>
+            </div>
+          </div>
+          <!-- CARD WITH TITLE -->
+          <div class="card white black-text col s12 m12 right">
+            <div class="card-content ">
+              <span class="card-title ">Project 2 : Webly </span>
+              <div class="col-s2 m2">
+                  <img src="img/web.png" class="container img-raised rounded img-fluid">
+                </div>
+              <p>This UI design project is a social media inspired website which has login, posting, messaging and profile section. Webly derived from 'Worldwide Friendly' and is a website for developers.  </p>
+            </div>
+            <!-- ADD LINKS -->
+            <div class="card-action transparent">
+            
+              <a href="https://webly.netlify.com/" target="_blank">Visit Website</a>
+            </div>
+          </div>
           <!-- CARD WITH TITLE -->
           <div class="card white black-text col s12 m12">
             <div class="card-content ">
-              <span class="card-title ">Project 1</span>
+              <span class="card-title ">Project 3: Add Book to Library</span>
               <div class="col-s2 m2">
-                  <img src="img/chair.jpg" class="container img-raised rounded img-fluid">
+                  <img src="img/book.png" class="container img-raised rounded img-fluid">
                 </div>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi harum enim inventore ullam expedita nesciunt ea
-                voluptatem corporis iusto sint?</p>
+              <p>In this mini project, we can add a book by simply typing all the required details such as book title, author and isbn number and by clicking the submit button. There is also a delete button to remove specific book from the list. </p>
             </div>
             <!-- ADD LINKS -->
             <div class="card-action transparent">
             
-              <a href="#!">Visit Website</a>
-            </div>
-          </div>
-          <!-- CARD WITH TITLE -->
-          <div class="card white black-text col s12 m6">
-            <div class="card-content ">
-              <span class="card-title ">Project 2</span>
-              <div class="col-s2 m2">
-                  <img src="img/pro1.jpg" class="container img-raised rounded img-fluid">
-                </div>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi harum enim inventore ullam expedita nesciunt ea
-                voluptatem corporis iusto sint?</p>
-            </div>
-            <!-- ADD LINKS -->
-            <div class="card-action transparent">
-            
-              <a href="#!">Visit Website</a>
-            </div>
-          </div>
-          <!-- CARD WITH TITLE -->
-          <div class="card white black-text col s12 m6">
-            <div class="card-content ">
-              <span class="card-title ">Project 3</span>
-              <div class="col-s2 m2">
-                  <img src="img/pro2.jpg" class="container img-raised rounded img-fluid">
-                </div>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi harum enim inventore ullam expedita nesciunt ea
-                voluptatem corporis iusto sint?</p>
-            </div>
-            <!-- ADD LINKS -->
-            <div class="card-action transparent">
-            
-              <a href="#!">Visit Website</a>
+              <a href="https://addbooktolistprojectbysai.netlify.com/" target="_blank">Visit Website</a>
             </div>
           </div>
         </div>
       </div>
   </section>
 </div>
-
-  <!-- SECTION 5: FOOTER -->
- 
-  <footer  id="contact grey" >
-
-   <div class="container">
-     
-     <h6 style="
-margin: 100px 20px 50px 20px;
- ">Copyright &copy; CAS Reniva 2019<h6>
-   
-   </div>
-    </footer>
+    <!-- SECTION 5: FOOTER -->
+  
+    <footer  id="contact" class="scrollspy ">
+    
+      <hr style="margin-bottom: 100px; margin-top:100px; width: 100%">
+    <div class="container col s12">
+      <h5 class="grey">Thank you for visiting my profile!</h5>
+      <div class="sharing-area text-center">
+        <div class="row justify-content-center">
+          <h2 >Need a website? Looking to hire? Feel free to message me.</h2>
+        </div> 
+        <div class="row" margin="0px;">
+          <div class="col s12 m12">
+        <a  href="https://twitter.com/smashiro689" target="_blank" class="btn btn-raised btn-twitter ">
+          <i class="fab fa-twitter"></i> Tweet
+        </a>
+        
+        <a  href="https://web.facebook.com/cy.reniva" target="_blank" class="btn btn-raised btn-facebook ">
+          <i class="fab fa-facebook"></i> Share
+        </a>
+      
+        <a  href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsTMDXGmbpKfgdnRzprRmRpttcwMGmqcprdvVRBhRhVhfZZfZJjkknsMRQTNKHnnvlcCnCVG"  class="btn btn-raised btn-google-plus " target="_blank">
+          <i class="fab fa-google"></i> Share
+        </a>
+        <a  href="https://github.com/saireniva" target="_blank" class="btn btn-raised btn-github">
+          <i class="fab fa-github"></i> Star
+        </a></div>
+      </div>
+      </div>
+      <h6  style="
+  margin: 100px 20px 0px 20px;
+  ">Copyright &copy; CAS Reniva 2019<h6> <span >saireniva@gmail.com</span> <br>
+    
+    
+    
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
 <div class="">
     <a class="white-text rounded" href="#home" >
-      <i class="fa fa-chevron-up" ></i>
+      <i class="fa fa-chevron-up" style="margin: 10px;" ></i>
     </a>
   </div>
-
+</div>
+<br><br>
+</footer>
+  
+<!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<link rel="stylesheet" href="css/star2.css">
+<script src="js/particles.js"></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='https://cdn.rawgit.com/Dogfalo/materialize/master/dist/js/materialize.min.js'></script>
-<script>
-    $(document).ready(function () {
-      $('.dropdown-button').dropdown({
-        constrainWidth: false,
-        hover: true,
-        belowOrigin: true,
-       
-      });
-
-      // JAVASCRIPT START HERE //
-      $('.button-collapse').sideNav();
-    });
-
-    
-  </script>
 
 <script src="js/typeWriter.js"></script>
 <script src="js/index.js"></script>
     <script>
-   $(document).ready(function(){
-    $('.fixed-action-btn').floatingActionButton();
+      
+  $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
   });
   </script>
 
+<script>
+$(document).ready(function(){
+  $('.tooltipped').tooltip();
+});
+</script>
 </body>
 </html>

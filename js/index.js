@@ -3,7 +3,7 @@ $(document).ready(function(){
     top: $('#content').offset().top
   });
   $('.scrollspy').scrollSpy({
-    scrollOfffset: 100
+    scrollOffset: 0
   });
 });
 
