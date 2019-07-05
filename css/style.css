@@ -32,11 +32,12 @@ nav{
 }
 #content li{
 	margin: 10px;
-	height: 60px;
+	height: 40px;
 	width: 40px;
 }
 
   #navigation-bar a {
+		display:contents;
 	color: #ddd8d8;
 	font-size: 15px;
 	text-decoration: none;
@@ -79,8 +80,7 @@ nav{
 .intro h1
 {
 	font-weight: 900;
-	/* font-family: 'Rubik Mono One', sans-serif; */
-	font-family: 'Gochi Hand', cursive;
+
 	text-transform: uppercase;
 	color: #EF8354;
 	
